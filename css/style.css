@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0;}
+/* this is for nav-cotainer*/
+.nav-container{display: flex;justify-content: space-around;}
+.nav-container ul{display: flex;justify-content: space-evenly;align-items: center;}
+.nav-container ul li{padding-right: 50px;list-style: none;}
+.nav-container ul li a{text-decoration: none;}
+.nav-container button{padding: 15px 20px;color: white;background-color: black;border: none;font-family: sans-serif;font-weight: bold;}
+/* this is for main-cotainer*/
+.company-registration-section{display: flex; background-color: black;padding: 100px;justify-content: center;}
+.main-registration-content{width: 50%;color: white; font-family: sans-serif;padding-top: 100px;}
+.main-registration-content h1{font-size: 40px;width: 70%;margin-bottom: 10px;}
+.main-registration-content ul li img{width: 3%; padding-right: 10px;}
+.main-registration-content ul li{display: flex;align-items: center;list-style: none;padding-top: 20px;}
+/* this is for form container */
+.main-registration-form{padding-left: 50px;width: 50%;}
+.main-registration-form form{background-color: white; padding:50px;border-radius: 20px;}
+.form-info{display: flex; justify-content:space-between; padding-bottom: 30px;}
+.form-info input{padding: 15px;border-radius: 100px;border: none;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;width: 100%;} 
+form button{padding: 20px;width: 100%;border-radius: 100px;border: none;background-color: red;color: white;font-weight: bold;font-family: sans-serif;margin-bottom: 50px;}
+.form-info label{line-height: 30px;}
+.company label, .company input{}
+/* this is for company-partner-section */
+.company-partner-section{padding: 50px 100px 100px 100px;font-family: sans-serif;}
+.partners{display: flex; justify-content: space-evenly;}
+.company-partner-section h2{text-align: center;padding-bottom: 50px;}
+.partners img{width: 30%;}
+.partner p, h4{width: 80%;}
+.partner{display: flex;flex-direction: column; align-items: center;}
+.company{padding-left: 10%;}
+.partner:nth-child(1),.partner:nth-child(2){border-right: 1px solid gray;}
+.partner:nth-child(1) .company{margin-top: 33px;}
+.partner:nth-child(2) .company{margin-top: 48px;}
+.partner:nth-child(3) .company{margin-top: 66px;}
+.partner:nth-child(1) img{margin-top: 20px;}
+.partner:nth-child(2) img{margin-top: 35px;width: 60%;}
+.partner:nth-child(3) img{margin-top: 29px;}
+/* this is for company-services-section*/
+.company-services-section{display: flex;justify-content: space-evenly;padding: 50px 100px 100px 130px;font-family: sans-serif;}
+.service img{width: 10%; border-radius: 10px;margin-bottom: 10px;}
+.service p{width: 80%; padding: 15px 0px;}
+.service{width: 100%;display: flex;flex-direction: column;justify-content: center;align-items: flex-start;margin: 0% auto;}
+/* this is for company-call-to-call-service-section*/
+.company-call-to-call-service-section{display: flex; padding:0px 130px; font-family: sans-serif;}
+.company-call-to-call-service-section h1{width: 50%;padding-bottom: 10px;}
+.call-to-call-content{display: flex;flex-direction: column;justify-content: center;width: 50%;}
+.call-to-call-content .group-btn{margin-top: 20px;}
+.group-btn button{padding: 15px 30px; margin-right: 20px;}
+.group-btn button:nth-child(1){border: none;background-color: red;color: white;font-weight: bold;}
+.group-btn button:nth-child(2){border: none;background-color: black;color: white;font-weight: bold;border-radius: 100px;}
+/* this is for company-process-section */
+.company-process-section{padding: 100px;font-family: sans-serif;}
+.company-process-section h2, .red{text-align:center;width: 100%;}
+.company-process-section > p{text-align: center;}
+.company-process-section .red{color: red;font-weight: bold;}
+.company-process-section .our-processes{display: flex;justify-content: space-evenly;}
+.process{text-align: center;padding-top: 50px;padding: 5px;width: 100%;margin-top: 100px;}
+.process span{background-color:rgb(253, 232, 232);padding: 40px 50px;border-radius: 50%;font-size: 40px;color:red;font-weight: bold;}
+.process h3{padding-top: 80px;}
+/* this is for company-features-section */
+.company-features-section h2{text-align: center;font-family: sans-serif;}
+.company-features-section >p{text-align: center;font-family: sans-serif;}
+.our-features{padding: 50px 100px;font-family: sans-serif;}
+.our-features .features{display: flex;justify-content: space-evenly;padding-bottom: 20px;gap: 20px;}
+.features .feature{border:none;padding: 40px 0px 40px 40px;border-radius: 20px;display: flex;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.features .feature img{width:8%;height: 8vh; border-radius: 10px;}
+.feature .feature-content{width: 65%;padding-top: 15px;}
+/* this is for company-fqa-section */
+.company-fqa-section{padding: 100px 100px;background-color: black;font-family: sans-serif;}
+.company-fqa-section .fqa-cards{display: flex;justify-content: space-evenly;gap: 20px;}
+.fqa-cards .fqa-card{border:none;margin-bottom: 20px;padding: 25px;background-color: white;border-radius: 20px;}
+.fqa-card .fqa-card-question{display: flex;justify-content: space-between;}
+.fqa-card-question .question{font-size: 20px;font-weight: bold;}
+.fqa-card-question span{background-color:rgb(247, 241, 241);padding: 5px 12px;font-size: 30px;font-weight: bold;border-radius: 10px;}
+.fqa-card-question +p{width: 75%;}
+/* this is for footer-container */
+.footer-container{font-family: sans-serif;}
+.footer-container .footer-menu-section{display: flex;justify-content: space-around;padding: 50px 0px;}
+.menu h3{padding: 10px;color: gray;font-size: 25px;}
+.menu ul li{list-style: none;padding: 10px;}
+.menu ul li a{text-decoration: none;color: gray;}
+.menu ul li a span{background-color: black; color: white; font-weight: bold;padding: 5px 10px;border-radius: 100px;}
+/* this is for languages-section */
+.languages-section{display: flex; justify-content: center;border-bottom: 1px solid gray; border-top: 1px solid gray;align-items: center;margin:0px 40px;}
+.languages-section a{padding: 20px;color: gray;}
+.languages-section a:nth-child(2), .languages-section a:nth-child(3){text-decoration: none;}
+/* rhis is for footer-section */
+.footer-section {display: flex;justify-content: space-between;padding: 40px 40px 50px 40px;}
+.footer-section .footer-left ul{display: flex;}
+.footer-section .footer-left ul li{list-style: none;}
+.footer-section .footer-left ul li a{text-decoration: none;padding-right: 10px;color: gray;}
